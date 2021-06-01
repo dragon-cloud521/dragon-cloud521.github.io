@@ -1,0 +1,122 @@
+mode: auto
+
+avatar:
+  url: /images/avatar.jpg # 你的头像图片地址
+  rounded: true
+  opacity: 1
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 🤣
+    message: 陪伴与守护
+
+bg_image:
+  enable: true
+  url: /images/background2.jpg
+  dark: /images/background1.jpg
+  blur: 0px # 设置背景模糊程度
+  opacity: 0.8
+  
+colors:
+  primary: "#800080"
+  bg: "#F5F5F5"
+  selection_bg: "#8e71c1" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  tag_start_color: "#800080"
+  tag_end_color: "#800080"
+
+banner:
+  enable: true
+  title: 云云的小屋
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+notice:
+  enable: true
+  content: 这是一个记录我与她生活的小玩意。
+
+trianglify:
+  enable: false
+  cellSize: 75
+  width: 800
+  height: 600
+  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+  opacity: 0.5
+
+fireworks:
+  enable: true
+  colors:
+    - "218, 112, 214"
+    - "160, 32, 240"
+    - "138, 43, 226"
+    - "221, 160, 221"
+
+# cursor:
+#   enable: false
+#   default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+#   pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+#   text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+
+sidebar:
+  bg_image: /images/label1.jpg
+  bg_position: bottom 1rem center
+  tagcloud:
+    enable: true
+    amount: 20
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    custom:
+    title: 留言板
+    path: /about/#comment
+    icon: icon-clipboard-line
+
+social:
+  - name: GitHub
+    link: https://github.com/YunYouJun
+    icon: icon-github-line
+    color: "#181717"
+  - name: QQ
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://wpa.qq.com/msgrd?v=3&uin=910426929&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: E-Mail
+    link: mailto:1747046904@qq.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 网易云音乐
+    link: https://music.163.com/#/my/m/music/playlist?id=2805492199
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/1936666975
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+
+valine:
+  enable: true
+  appId: h6dyEeLL8cxCAsg2nhDv6oeL-gzGzoHsz
+  appKey: HHcNunOnyMRR1fWufz7opjVk
+
